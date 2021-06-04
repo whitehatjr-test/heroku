@@ -56,7 +56,6 @@ score=lg_clf.score(x_train, y_train)
 
 import streamlit as st
 
-@st.cache()
 
 # defining the function which will make the prediction using the data which the user inputs 
 def prediction(ri, na, mg, al, si, k, ca, ba, fe):   
